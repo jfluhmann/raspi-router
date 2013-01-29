@@ -16,7 +16,7 @@ In my case, I'm using my Raspberry Pi as my WAN-bridge with a switch and Virgin 
 
 ## Reference ##
 I used the following to piece together everything I needed.
-http://www.raspberrypi.org/phpBB3/viewtopic.php?f=46&t=25921
-http://sirlagz.net/2012/08/09/how-to-use-the-raspberry-pi-as-a-wireless-access-pointrouter-part-1/
-http://sirlagz.net/2012/08/11/how-to-use-the-raspberry-pi-as-a-wireless-access-pointrouter-part-3/
+* http://www.raspberrypi.org/phpBB3/viewtopic.php?f=46&t=25921
+* http://sirlagz.net/2012/08/09/how-to-use-the-raspberry-pi-as-a-wireless-access-pointrouter-part-1/
+* http://sirlagz.net/2012/08/11/how-to-use-the-raspberry-pi-as-a-wireless-access-pointrouter-part-3/
 

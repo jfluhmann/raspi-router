@@ -1,0 +1,17 @@
+auto lo
+
+iface lo inet loopback
+
+auto eth0
+iface eth0 inet static
+	address 172.16.1.1
+	network 172.16.1.0
+	broadcast 172.16.1.255
+	netmask 255.255.255.0
+
+auto wlan0
+iface wlan0 inet dhcp
+wpa-conf /etc/wpa_supplicant/wpa_supplicant.conf
+
+#allow-hotplug wlan0
+iface default inet dhcp

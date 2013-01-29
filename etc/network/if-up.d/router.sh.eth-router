@@ -1,0 +1,12 @@
+
+iptables -F
+iptables -X
+
+iptables -A INPUT -i lo -j ACCEPT
+iptables -A OUTPUT -o lo -j ACCEPT
+iptables -A INPUT -i eth0 -j ACCEPT
+iptables -A OUTPUT -o eth0 -j ACCEPT
+
+iptables -A POSTROUTING -t nat -o wlan0 -j MASQUERADE
+iptables -A FORWARD -i eth0 -j ACCEPT
+
